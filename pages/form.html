@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="datosCliente">
+        <form class="formularioDeCompra">
+            <label for="cliente">Cliente:</label>
+            <input type="text" id="cliente" name="nombre"><br>
+
+            <label for="mixes">Mixes:</label>
+            <textarea id="mixes" name="articulos"></textarea><br>
+
+            <label for="valorTotal">Valor total:</label>
+            <input class="areaTexto" type="number" id="valorTotal" name="valor-total"><br>
+
+            <label for="medioDePago">Medio de pago:</label>
+            <select class="areaTexto " id="medioDePago" name="medio-pago">
+                <option value="Efectivo">Efectivo</option>
+                <option value="Tienda Nube">Tienda Nube</option>
+                <option value="Transferencia">Transferencia bancaria//MP</option>
+            </select><br>
+
+            <label for="whatsapp">Whatsapp:</label>
+            <input class="areaTexto" type="tel" id="whatsapp" name="whatsapp"><br>
+
+            <button class="botonEnviar" type="submit">Enviar</button>
+        </form>
+    </div>
+    <div class="infoPedidos">
+        
+    </div>
+
+
+    <script src="../js/main.js"></script>
+  
+</body>
+
+</html>

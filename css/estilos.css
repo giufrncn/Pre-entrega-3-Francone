@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: normal;
+  }
+  
+  
+  
+  .contenedor {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  body {
+    margin: 1rem;
+    background-color: black;
+    color: #00FF00;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  table {
+    margin: 1rem;
+  }
+  
+  th,
+  td {
+    border: 1px solid #00FF00;
+    padding: 10px;
+  }
+  
+  h1 {
+    padding: 1rem;
+  }
+  
+  .botones {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+    padding-right: 10rem;
+  }
+  
+  .botones button {
+    background-color: black;
+    color: #00FF00;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid #00FF00;
+    border-radius: 20%;
+    margin-bottom: 10px;
+  }
+  
+  .botones button:hover {
+    background-color: #00FF00;
+    color: black;
+  }
+  
+  form {
+    background-color: black;
+    color: #00FF00;
+    font-size: 18px;
+    border: 1px solid #00FF00;
+    padding: 20px;
+    margin: 0 auto;
+    width: 80%;
+    box-shadow: 0 0 100px rgba(221, 216, 216, 0.2);
+  }
+  
+  label {
+    display: block;
+    margin: 10px;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #00FF00;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background-color: rgb(24, 24, 24);
+    color: white;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .areaTexto {
+    background-color: rgb(24, 24, 24);
+    color: #00FF00;
+    padding: 10px;
+    width: 300px;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .pedidos {
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+  }
