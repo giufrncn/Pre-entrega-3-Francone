@@ -19,34 +19,6 @@ btnCleaner && btnCleaner.addEventListener("click", function () {
   location.reload()
 });
 
-/*
-if (boton1) {
-  boton1.addEventListener("click", function () {
-    location.href = "./pages/inventario.html";
-  });
-}
-
-if (boton2) {
-  boton2.addEventListener("click", function () {
-    location.href = "./pages/form.html";
-  });
-}
-
-if (boton3) {
-  boton3.addEventListener("click", function () {
-    location.href = "./pages/pedidos.html";
-  });
-}
-
-if (btnCleaner) {
-  btnCleaner.addEventListener("click", function () {
-
-    localStorage.clear();
-    location.reload()
-    
-  });
-} */
-
 const botonEnviar = document.querySelector('.botonEnviar');
 const infoPedidos = document.querySelector('.infoPedidos');
 
